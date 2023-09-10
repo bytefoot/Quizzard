@@ -5,6 +5,12 @@ on the topic chose by the user.
 It also maintain a history of all the quizes attempted by the user along with the marks in
 that quiz.
 
+## STACK decription
+This full stack project has been done using:
+    - Flask microframework (Python) for the server
+    - Styling done using 'old-school' plain HTML-CSS
+    - Sqlite is used as database
+
 ## Setup and Execution Instructions
 Note: It best works with python version >= 3.9
 
