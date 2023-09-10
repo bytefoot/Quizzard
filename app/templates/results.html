@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title%}Result - {{data.sname}} - Quizzard{% endblock title%}
+
+{% block addstyle%}
+<link  rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/results.css') }}">
+{% endblock addstyle%}
+
+{% block content%}
+<main class="wrapper content">
+    <h2 class="content--header">Result of quiz on {{data.name}}</h2>
+    <h1 class="results">Marks: {{marks}}/10</h1>
+
+    <div class="lnk--wrapper">
+        <a href="/" class="lnk">Back to Dashboard</a>
+    </div>
+</main>
+
+{% endblock content%}

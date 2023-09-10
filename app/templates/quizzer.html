@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title%}{{data.sname}} - Quizzard{% endblock title%}
+
+{% block addstyle%}
+<link  rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/quizzer.css') }}">
+{% endblock addstyle%}
+
+{% block content%}
+<main class="content">
+    <h2 class="wrapper content--header">Quiz on {{data.name}}</h2>
+
+    <form action="/results" method="post">
+        <section class="qlist wrapper">
+            {% for q in qs %}
+                <article class="qblock">
+                    <h3 class="qblock--q">Q: {{qset[q]["q"]}}</h3>
+                    <div class="qblock--a">
+                        <label class="qblock--a--label">A:</label>
+                        <input class="qblock--a--input" type="text" name="{{q}}"
+                        placeholder="Your answer . . ."></input>
+                    </div>
+                </article>
+            {% endfor %}
+        </section>
+
+        <input type="hidden" name="topic" value="{{topic}}">
+
+        <section class="footer">
+            <div class="wrapper">
+                <button class="submitbtn" type="submit">Submit</button>
+            </div>
+        </section>
+    </form>
+</main>
+{% endblock content%}

@@ -1,0 +1,44 @@
+{
+    "maths": {
+        "name": "Mathematics",
+        "description": "Quiz on basic mathematical operations",
+        "sname": "Maths1",
+        "qs":
+            ["MA01", "MA02", "MA03", "MA04", "MA05", "MA06", "MA07", "MA08", "MA09", "MA10", "MA11", "MA12", "MA13", "MA14", "MA15", "MA16", "MA17", "MA18", "MA19", "MA20"]
+        },
+    "tvshows": {
+        "name": "TV Shows",
+        "description": "Quiz on various popular TV Shows",
+        "sname": "TV",
+        "qs":
+            ["TS01", "TS02", "TS03", "TS04", "TS05", "TS06", "TS07", "TS08", "TS09", "TS10", "TS11", "TS12", "TS13", "TS14", "TS15", "TS16", "TS17", "TS18", "TS19", "TS20"]
+    },
+    "movies": {
+        "name": "Movies",
+        "description": "Quiz on poppular Movies",
+        "sname": "Movies",
+        "qs":
+            ["MV01", "MV02", "MV03", "MV04", "MV05", "MV06", "MV07", "MV08", "MV09", "MV10", "MV11", "MV12", "MV13", "MV14", "MV15", "MV16", "MV17", "MV18", "MV19", "MV20"]
+    },
+    "geo": {
+        "name": "Geography",
+        "description": "Quiz on general geography knowledge",
+        "sname": "Geo",
+        "qs":
+            ["GE01", "GE02", "GE03", "GE04", "GE05", "GE06", "GE07", "GE08", "GE09", "GE10", "GE11", "GE12", "GE13", "GE14", "GE15", "GE16", "GE17", "GE18", "GE19", "GE20"]
+    },
+    "sc": {
+        "name": "Science",
+        "description": "Quiz on basic science knowledge",
+        "sname": "Sc",
+        "qs":
+            ["SC01", "SC02", "SC03", "SC04", "SC05", "SC06", "SC07", "SC08", "SC09", "SC10", "SC11", "SC12", "SC13", "SC14", "SC15", "SC16", "SC17", "SC18", "SC19", "SC20"]
+    },
+    "astro": {
+        "name": "Astrology",
+        "description": "Quiz on basic info in astrology.",
+        "sname": "Astro",
+        "qs":
+            ["AS01", "AS02", "AS03", "AS04", "AS05", "AS06", "AS07", "AS08", "AS09", "AS10", "AS11", "AS12", "AS13", "AS14", "AS15", "AS16", "AS17", "AS18", "AS19", "AS20"]
+    }
+}

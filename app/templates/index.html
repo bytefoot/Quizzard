@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title%}Quizzard{% endblock title%}
+
+{% block addstyle%}
+<link  rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock addstyle%}
+
+{% block content%}
+<main class="wrapper">
+    <h1 class="wlcmmsg">Welcome back, {{current_user.name}}!</h1>
+    <h2 class="content--header">Choose the topic to quiz on:</h2>
+    
+    <section class="card-list">
+        {% for topic_lnk, topic in dataset.items() %}
+            <a class="card" href="/quizzer/{{topic_lnk}}">
+                <h3 class="card--title">{{topic["name"]}}</h3>
+                <p class="card--descrip">{{topic["description"]}}</p>
+            </a>
+        {% endfor %}
+    </section>
+
+    <h2 class="content--header">Quiz History:</h2>
+        {% if quizes %}
+            <table class="quiztable">
+                <thead>
+                    <tr>
+                        <th class="nomob">TimeStamp</th>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for qz in q_iter %}
+                        <tr>
+                            <td class="nomob">{{qz.timestamp.strftime("%d/%m/%y  %H:%M:%S")}}</td>
+                            <td>{{qz.subject}}</td>
+                            <td>{{qz.marks}}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            <div class="bottom-padding"/>
+        {% else %}
+            <div class="no-quiz">
+                <h3 class="no-quiz-txt"> |<--- No Quizes attempted --->| </h3>
+            </div>
+        {% endif %}
+
+</main>
+{% endblock content%}

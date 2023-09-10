@@ -1,0 +1,46 @@
+.content--header{
+    font-size: 2.3rem;
+    padding: 0.2rem;
+    border-bottom: 3px solid var(--accent-dull2);;
+
+    color: var(--accent-primary);
+}
+
+.results {
+    font-size: 5rem;
+    color: var(--bg-primary);
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    text-shadow: none;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    text-align: center;
+}
+
+.lnk {
+    font-size: 1.2rem;
+    font-family: 'Lilita One', cursive;
+    border-radius: 6px;
+    padding: 0.6rem 1.2rem;
+
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    box-shadow: none;
+
+    color: var(--accent-dull);
+
+}
+
+.lnk:hover {
+    transform: scale(1.1);
+}
+
+.lnk:active {
+    transform: scale(0.9);
+}
+
+.lnk--wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

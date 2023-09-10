@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title%}Login - Quizzard{% endblock title%}
+
+{% block addstyle%}
+<link  rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/login.css') }}">
+{% endblock addstyle%}
+
+{% block content %}
+<div class="wrapper content">
+    <form method="POST" action="/login">
+        <div class="box">
+            <h3 class="title">Login</h3>
+            <input class="inputbox" type="email" name="email" placeholder="Your Email" autofocus="">
+            <input class="inputbox" type="password" name="password" placeholder="Your Password">
+
+            <label class="checkbox">
+                <input type="checkbox" name="remember">
+                Remember me
+            </label>
+
+            <button class="lgnbtn">Login</button>
+            <a class="lnk" href="/signup">Don't have an existing account? Sign up!</a>
+        </div>
+    </form>
+</div>
+{% endblock %}

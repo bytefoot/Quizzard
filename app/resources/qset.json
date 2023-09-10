@@ -1,0 +1,482 @@
+{
+    "MA01": {
+        "q": "What is 7 + 3?",
+        "a": "10"
+    },
+    "MA02": {
+        "q": "Simplify 5 * 6",
+        "a": "30"
+    },
+    "MA03": {
+        "q": "Calculate 12 / 4",
+        "a": "3"
+    },
+    "MA04": {
+        "q": "Find the square root of 25",
+        "a": "5"
+    },
+    "MA05": {
+        "q": "What is 8 squared?",
+        "a": "64"
+    },
+    "MA06": {
+        "q": "If x = 5 and y = 3, what is x + y?",
+        "a": "8"
+    },
+    "MA07": {
+        "q": "Solve for x: 2x - 7 = 11",
+        "a": "9"
+    },
+    "MA08": {
+        "q": "Calculate the area of a rectangle with length 6 and width 4.",
+        "a": "24"
+    },
+    "MA09": {
+        "q": "What is the value of π (pi) to two decimal places?",
+        "a": "3.14"
+    },
+    "MA10": {
+        "q": "If a = 10 and b = 20, what is a * b?",
+        "a": "200"
+    },
+    "MA11": {
+        "q": "Find the circumference of a circle with radius 5.",
+        "a": "31.42"
+    },
+    "MA12": {
+        "q": "Solve for x: 3x + 2 = 14",
+        "a": "4"
+    },
+    "MA13": {
+        "q": "Calculate 3/4 as a decimal.",
+        "a": "0.75"
+    },
+    "MA14": {
+        "q": "What is the next prime number after 17?",
+        "a": "19"
+    },
+    "MA15": {
+        "q": "If a triangle has a base of 8 and a height of 6, what is its area?",
+        "a": "24"
+    },
+    "MA16": {
+        "q": "Evaluate 2^4 (2 to the power of 4).",
+        "a": "16"
+    },
+    "MA17": {
+        "q": "Simplify the expression: (4 + 3) * 2",
+        "a": "14"
+    },
+    "MA18": {
+        "q": "What is the result of 15% of 80?",
+        "a": "12"
+    },
+    "MA19": {
+        "q": "If a = 6 and b = 3, what is a - b?",
+        "a": "3"
+    },
+    "MA20": {
+        "q": "Calculate the perimeter of a square with sides of length 9.",
+        "a": "36"
+    },
+    "TS01": {
+        "q": "Which TV show features a group of friends living in New York City and includes characters named Ross, Rachel, and Monica?",
+        "a": "Friends"
+    },
+    "TS02": {
+        "q": "In the TV show 'Breaking Bad,' what is the street name of the blue crystal meth that Walter White and Jesse Pinkman produce?",
+        "a": "Blue Sky"
+    },
+    "TS03": {
+        "q": "What animated TV show follows the adventures of a boy named Finn and his magical dog Jake in the Land of Ooo?",
+        "a": "Adventure Time"
+    },
+    "TS04": {
+        "q": "Which TV series is set in the fictional continents of Westeros and Essos and is based on the 'A Song of Ice and Fire' novels?",
+        "a": "Game of Thrones"
+    },
+    "TS05": {
+        "q": "In 'The Office,' what is the name of the paper company where the characters work?",
+        "a": "Dunder Mifflin"
+    },
+    "TS06": {
+        "q": "Which TV show is known for its catchphrase 'D'oh!' and features the Simpson family?",
+        "a": "The Simpsons"
+    },
+    "TS07": {
+        "q": "What TV series revolves around a high school chemistry teacher turned methamphetamine manufacturer?",
+        "a": "Breaking Bad"
+    },
+    "TS08": {
+        "q": "In 'Stranger Things,' what is the name of the parallel dimension inhabited by the Demogorgon?",
+        "a": "The Upside Down"
+    },
+    "TS09": {
+        "q": "Which TV show features a fictional island with a mysterious hatch and a group of survivors?",
+        "a": "Lost"
+    },
+    "TS10": {
+        "q": "What is the name of the TV series about a high school teacher who begins cooking and selling crystal meth after being diagnosed with cancer?",
+        "a": "Breaking Bad"
+    },
+    "TS11": {
+        "q": "Which TV show follows the lives of four women living in New York City and is known for its fashion and relationships?",
+        "a": "Sex and the City"
+    },
+    "TS12": {
+        "q": "In 'The Walking Dead,' what do the survivors call the undead creatures that roam the post-apocalyptic world?",
+        "a": "Walkers"
+    },
+    "TS13": {
+        "q": "What TV show is set in the fictional town of Hawkins, Indiana, and involves supernatural events and a girl with psychokinetic abilities?",
+        "a": "Stranger Things"
+    },
+    "TS14": {
+        "q": "Which TV series features a high school chemistry teacher who becomes a methamphetamine kingpin?",
+        "a": "Breaking Bad"
+    },
+    "TS15": {
+        "q": "What is the name of the TV show that follows the lives of a group of six friends living in New York City?",
+        "a": "Friends"
+    },
+    "TS16": {
+        "q": "In 'The Office,' what is the name of the bumbling regional manager of the Scranton branch of Dunder Mifflin?",
+        "a": "Michael Scott"
+    },
+    "TS17": {
+        "q": "Which TV series revolves around a group of survivors trying to survive in a world overrun by zombies?",
+        "a": "The Walking Dead"
+    },
+    "TS18": {
+        "q": "What TV show features a group of friends who meet at a coffee shop called Central Perk?",
+        "a": "Friends"
+    },
+    "TS19": {
+        "q": "In 'Stranger Things,' what is the name of the young girl with psychokinetic abilities?",
+        "a": "Eleven"
+    },
+    "TS20": {
+        "q": "Which TV show is set in the 1960s and follows the lives of advertising executives at the Sterling Cooper agency?",
+        "a": "Mad Men"
+    },
+    "MV01": {
+        "q": "Which 1972 film directed by Francis Ford Coppola tells the story of the Corleone family?",
+        "a": "The Godfather"
+    },
+    "MV02": {
+        "q": "In 'The Shawshank Redemption,' what is the name of the main character played by Tim Robbins?",
+        "a": "Andy Dufresne"
+    },
+    "MV03": {
+        "q": "Who played the role of Jack Dawson in the 1997 film 'Titanic'?",
+        "a": "Leonardo DiCaprio"
+    },
+    "MV04": {
+        "q": "Which movie features a computer hacker named Neo who discovers a dystopian world controlled by machines?",
+        "a": "The Matrix"
+    },
+    "MV05": {
+        "q": "In 'Jurassic Park,' what kind of creatures are brought back to life through genetic engineering?",
+        "a": "Dinosaurs"
+    },
+    "MV06": {
+        "q": "What 1985 film directed by Robert Zemeckis features a time-traveling DeLorean car?",
+        "a": "Back to the Future"
+    },
+    "MV07": {
+        "q": "Who played the iconic role of James Bond in the film 'GoldenEye'?",
+        "a": "Pierce Brosnan"
+    },
+    "MV08": {
+        "q": "What animated movie features a young lion named Simba who learns about the circle of life?",
+        "a": "The Lion King"
+    },
+    "MV09": {
+        "q": "Which Quentin Tarantino film features two hitmen named Jules and Vincent?",
+        "a": "Pulp Fiction"
+    },
+    "MV10": {
+        "q": "In 'The Lord of the Rings: The Fellowship of the Ring,' who is entrusted with the One Ring?",
+        "a": "Frodo Baggins"
+    },
+    "MV11": {
+        "q": "What science fiction film by Ridley Scott features a character named Deckard who hunts replicants?",
+        "a": "Blade Runner"
+    },
+    "MV12": {
+        "q": "Who directed the 1994 film 'Forrest Gump'?",
+        "a": "Robert Zemeckis"
+    },
+    "MV13": {
+        "q": "What movie tells the story of a fish named Marlin searching for his lost son, Nemo?",
+        "a": "Finding Nemo"
+    },
+    "MV14": {
+        "q": "In 'Inception,' what is the term for a shared dream within a dream?",
+        "a": "A dream within a dream"
+    },
+    "MV15": {
+        "q": "Which film features a character named Tyler Durden and explores themes of consumerism and nihilism?",
+        "a": "Fight Club"
+    },
+    "MV16": {
+        "q": "Who played the role of Hermione Granger in the 'Harry Potter' film series?",
+        "a": "Emma Watson"
+    },
+    "MV17": {
+        "q": "In 'The Dark Knight,' who portrayed the Joker?",
+        "a": "Heath Ledger"
+    },
+    "MV18": {
+        "q": "What 1977 space opera film directed by George Lucas became a cultural phenomenon?",
+        "a": "Star Wars"
+    },
+    "MV19": {
+        "q": "Which movie is based on the life of the famous theoretical physicist Stephen Hawking?",
+        "a": "The Theory of Everything"
+    },
+    "MV20": {
+        "q": "Who directed the 1995 animated film 'Toy Story'?",
+        "a": "John Lasseter"
+    },
+    "AS01": {
+        "q": "Which zodiac sign is represented by the scales?",
+        "a": "Libra"
+    },
+    "AS02": {
+        "q": "In astrology, which planet is associated with communication, travel, and intellect?",
+        "a": "Mercury"
+    },
+    "AS03": {
+        "q": "What is the astrological term for the position of the sun, moon, and planets at the time of a person's birth?",
+        "a": "Natal Chart"
+    },
+    "AS04": {
+        "q": "Which zodiac sign is symbolized by a pair of fish swimming in opposite directions?",
+        "a": "Pisces"
+    },
+    "AS05": {
+        "q": "In astrology, what element is associated with the signs Aries, Leo, and Sagittarius?",
+        "a": "Fire"
+    },
+    "AS06": {
+        "q": "What astrological sign is often associated with a bull?",
+        "a": "Taurus"
+    },
+    "AS07": {
+        "q": "Which zodiac sign is ruled by the moon and is known for its emotional and intuitive nature?",
+        "a": "Cancer"
+    },
+    "AS08": {
+        "q": "In astrology, what term is used to describe the apparent path that the sun takes through the zodiac?",
+        "a": "Ecliptic"
+    },
+    "AS09": {
+        "q": "Which astrological sign is known for its dual nature and is symbolized by the twins Castor and Pollux?",
+        "a": "Gemini"
+    },
+    "AS10": {
+        "q": "In astrology, what is the term for the twelve divisions of the celestial belt through which the sun, moon, and planets move?",
+        "a": "Zodiac"
+    },
+    "AS11": {
+        "q": "Which zodiac sign is associated with the symbol of the scorpion?",
+        "a": "Scorpio"
+    },
+    "AS12": {
+        "q": "What astrological sign is represented by the water bearer pouring water from a jar?",
+        "a": "Aquarius"
+    },
+    "AS13": {
+        "q": "In astrology, which planet is often associated with love, beauty, and harmony?",
+        "a": "Venus"
+    },
+    "AS14": {
+        "q": "What is the term for the study of the movements and relative positions of celestial bodies in relation to human affairs and natural phenomena?",
+        "a": "Astrology"
+    },
+    "AS15": {
+        "q": "Which zodiac sign is represented by the goat with a fish's tail?",
+        "a": "Capricorn"
+    },
+    "AS16": {
+        "q": "In astrology, what element is associated with the signs Cancer, Scorpio, and Pisces?",
+        "a": "Water"
+    },
+    "AS17": {
+        "q": "What is the term for the apparent backward motion of a planet in its orbit as observed from Earth?",
+        "a": "Retrograde"
+    },
+    "AS18": {
+        "q": "Which zodiac sign is symbolized by the archer with a bow and arrow?",
+        "a": "Sagittarius"
+    },
+    "AS19": {
+        "q": "In astrology, what is the term for the study of the patterns and relationships of planets in motion?",
+        "a": "Astrological Aspects"
+    },
+    "AS20": {
+        "q": "Which astrological sign is often associated with the symbol of the lion?",
+        "a": "Leo"
+    },
+    "GE01": {
+        "q": "What is the capital city of France?",
+        "a": "Paris"
+    },
+    "GE02": {
+        "q": "Which river is the longest in the world?",
+        "a": "Nile"
+    },
+    "GE03": {
+        "q": "In which continent is the Sahara Desert located?",
+        "a": "Africa"
+    },
+    "GE04": {
+        "q": "What is the highest mountain in the world?",
+        "a": "Mount Everest"
+    },
+    "GE05": {
+        "q": "Which country is known as the Land of the Rising Sun?",
+        "a": "Japan"
+    },
+    "GE06": {
+        "q": "Which ocean is the largest in terms of area?",
+        "a": "Pacific Ocean"
+    },
+    "GE07": {
+        "q": "What is the smallest country in the world by land area?",
+        "a": "Vatican City"
+    },
+    "GE08": {
+        "q": "Which continent is home to the Amazon Rainforest?",
+        "a": "South America"
+    },
+    "GE09": {
+        "q": "What is the world's largest desert by area, often called the 'Desert of Deserts'?",
+        "a": "Antarctica"
+    },
+    "GE10": {
+        "q": "Which country is known as the Land of Fire and Ice due to its volcanic activity and glaciers?",
+        "a": "Iceland"
+    },
+    "GE11": {
+        "q": "What is the longest river in Europe?",
+        "a": "Volga River"
+    },
+    "GE12": {
+        "q": "In which country would you find the Great Barrier Reef?",
+        "a": "Australia"
+    },
+    "GE13": {
+        "q": "What is the capital city of Canada?",
+        "a": "Ottawa"
+    },
+    "GE14": {
+        "q": "Which mountain range runs along the border between Europe and Asia?",
+        "a": "Ural Mountains"
+    },
+    "GE15": {
+        "q": "What is the largest country in the world by land area?",
+        "a": "Russia"
+    },
+    "GE16": {
+        "q": "Which U.S. state is known as the Sunshine State?",
+        "a": "Florida"
+    },
+    "GE17": {
+        "q": "What is the capital city of South Africa?",
+        "a": "Pretoria"
+    },
+    "GE18": {
+        "q": "Which sea is located between Europe and Asia, and is connected to the Black Sea?",
+        "a": "Mediterranean Sea"
+    },
+    "GE19": {
+        "q": "Which country is the southernmost point of mainland Asia?",
+        "a": "Sri Lanka"
+    },
+    "GE20": {
+        "q": "What is the largest lake in Africa?",
+        "a": "Lake Victoria"
+    },
+    "SC01": {
+        "q": "What is the chemical symbol for the element oxygen?",
+        "a": "O"
+    },
+    "SC02": {
+        "q": "What is the force that attracts two objects with mass toward each other?",
+        "a": "Gravity"
+    },
+    "SC03": {
+        "q": "What is the process by which plants make their own food using sunlight?",
+        "a": "Photosynthesis"
+    },
+    "SC04": {
+        "q": "Which gas do plants absorb from the atmosphere and release oxygen during photosynthesis?",
+        "a": "Carbon dioxide (CO2)"
+    },
+    "SC05": {
+        "q": "What is the smallest unit of matter that retains the properties of an element?",
+        "a": "Atom"
+    },
+    "SC06": {
+        "q": "What is the process by which a solid turns directly into a gas without passing through the liquid phase?",
+        "a": "Sublimation"
+    },
+    "SC07": {
+        "q": "What is the chemical name for the table salt commonly used in food?",
+        "a": "Sodium chloride (NaCl)"
+    },
+    "SC08": {
+        "q": "What is the study of the Earth's atmosphere and weather patterns?",
+        "a": "Meteorology"
+    },
+    "SC09": {
+        "q": "Which planet is known as the Red Planet?",
+        "a": "Mars"
+    },
+    "SC10": {
+        "q": "What is the process by which plants release water vapor from their leaves into the atmosphere?",
+        "a": "Transpiration"
+    },
+    "SC11": {
+        "q": "What is the chemical formula for water?",
+        "a": "H2O"
+    },
+    "SC12": {
+        "q": "Which gas is most abundant in Earth's atmosphere?",
+        "a": "Nitrogen (N2)"
+    },
+    "SC13": {
+        "q": "What is the study of the interactions between organisms and their environment?",
+        "a": "Ecology"
+    },
+    "SC14": {
+        "q": "What is the process by which plants and animals exchange gases, such as oxygen and carbon dioxide?",
+        "a": "Respiration"
+    },
+    "SC15": {
+        "q": "Which planet is known for its beautiful ring system?",
+        "a": "Saturn"
+    },
+    "SC16": {
+        "q": "What is the fundamental building block of proteins?",
+        "a": "Amino acid"
+    },
+    "SC17": {
+        "q": "What is the study of the behavior of matter and energy?",
+        "a": "Physics"
+    },
+    "SC18": {
+        "q": "What is the chemical symbol for gold?",
+        "a": "Au"
+    },
+    "SC19": {
+        "q": "What is the process by which plants bend or grow toward a source of light?",
+        "a": "Phototropism"
+    },
+    "SC20": {
+        "q": "Which gas do humans inhale and use for respiration?",
+        "a": "Oxygen (O2)"
+    }
+}
