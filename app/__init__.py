@@ -2,11 +2,15 @@ from flask import Flask
 from flask_login import LoginManager
 from .models import User, db
 
+# Initialising flask app
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///userdata.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///userdata.db'  # using sqlite
 app.secret_key = "NvmIdkwhattoset"
 
+# Initialising db
 db.init_app(app)
+
+# Initialiing login manager
 login_manager = LoginManager(app)
 login_manager.login_view = 'auth.login'
 

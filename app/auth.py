@@ -5,6 +5,7 @@ from .models import User, db
 
 auth = Blueprint('auth', __name__)
 
+# GET methods -------------------------------------
 @auth.route('/login')
 def login():
     return render_template('login.html')
@@ -19,9 +20,10 @@ def logout():
     logout_user()
     return redirect(url_for('auth.login'))
 
+# POST methods --------------------------------------
 @auth.route('/login', methods=['POST'])
 def login_post():
-    # login code goes here
+    # Retrieving data from form
     email = request.form.get('email')
     password = request.form.get('password')
     remember = True if request.form.get('remember') else False
@@ -34,7 +36,7 @@ def login_post():
         flash('Please check your login details and try again.')
         return redirect(url_for('auth.login')) # if the user doesn't exist or password is wrong, reload the page
 
-    login_user(user, remember=remember)
+    login_user(user, remember=remember)  # Actual login
     return redirect(url_for('main.index'))
 
 @auth.route('/signup', methods=['POST'])

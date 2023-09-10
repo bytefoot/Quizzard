@@ -4,6 +4,7 @@ from datetime import datetime
 
 db = SQLAlchemy()
 
+# Table to store every user
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True) # primary keys are required by SQLAlchemy
     email = db.Column(db.String(100), unique=True)
@@ -11,7 +12,7 @@ class User(UserMixin, db.Model):
     name = db.Column(db.String(1000))
     quizes = db.relationship('Quiz', backref='user')
 
-
+# Table to store quiz history
 class Quiz(db.Model):
     id = db.Column(db.Integer, primary_key=True) # primary keys are required by SQLAlchemy
     subject = db.Column(db.String(100))

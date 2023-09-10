@@ -10,7 +10,8 @@ main = Blueprint('main', __name__)
 @main.route('/')
 @login_required
 def index():
-    q = current_user.quizes
+    # Serves the daskboard/index page
+    q = current_user.quizes  # History current user's quiz
     return render_template("index.html", dataset=DATASET, name=current_user.name, quizes=len(q) > 0, q_iter=reversed(q))
 
 @main.route('/quizzer/<topic>')
@@ -20,11 +21,13 @@ def quizzer(topic):
 
 @main.errorhandler(404)
 def not_found(e):
-  return render_template("404.html")
+    # Rendering custom 404 page
+    return render_template("404.html")
 
 @main.route('/results', methods=["POST"])
 @login_required
 def results():
+    # retrieving topic
     topic = request.form.get("topic")
     correct = 0
 
@@ -32,11 +35,13 @@ def results():
         if k == "topic":
             continue
 
+        # Evaluating answers
         if QSET[k]["a"] == v:
             correct += 1
 
     data = DATASET[topic]
 
+    # Adding to quiz history
     q = Quiz(marks=correct, subject=data["name"], user=current_user)
     db.session.add(q)
     db.session.commit()

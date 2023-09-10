@@ -1,6 +1,7 @@
 import json
 from importlib.resources import open_text
 
+# Importing the resouces files containing the dataset of questions
 with open_text('app.resources', 'data.json') as file:
     DATASET = json.loads(file.read())
 
